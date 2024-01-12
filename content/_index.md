@@ -39,7 +39,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: 精鑽股份有限公司
+      title: 精鑽股份有限公司_<<content _index.md>>
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: skills
@@ -52,7 +52,7 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Experience__<<content  _index.md>>
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -75,7 +75,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
+        - title: Professor of Semiconductor Physics <<content  _index.md>>
           company: University X
           company_url: ''
           company_logo: org-x
@@ -88,7 +88,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Accomplish&shy;ments' <<content  _index.md>>
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -130,8 +130,8 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
-      subtitle: ''
+      title: Recent Posts <<content  _index.md>>
+      subtitle: '<<content  _index.md>>'
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
