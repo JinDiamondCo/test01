@@ -1,13 +1,14 @@
 ---
+#在二個--- 是頭部訊息
 # Display name
-title: 吳健雄
+title: 精鑽股份有限公司
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: JinDiamond Co. Ltd
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Mason
+last_name: Chang
 
 # Status emoji
 status:
@@ -17,7 +18,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 專業的磁控濺射源設計
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -53,7 +54,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 10
         icon: python
         icon_pack: fab
       - name: Data Science
@@ -114,11 +115,16 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/resume.pdf  #此處連結到pdf檔
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
----
 
-精鑽JD Company Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+# 這裏是header data
+# 在---以外是內文
+---
+# 這裏加#會show在網頁上,且#空一格是h1文字
+精鑽 Company Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"}
+加入css
